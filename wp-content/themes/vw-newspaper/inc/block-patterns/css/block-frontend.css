@@ -1,0 +1,52 @@
+/*news section css*/
+.news-title{
+  height: 84px;
+  -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+}
+.newsbox{
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+.newsbox h1, .newsbox h2{
+  font-weight: 600 !important;
+}
+.newsbox img{
+  width: auto !important;
+}
+/*main content*/
+.main-text{
+  padding: 50px 20px 20px !important;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0);
+  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
+  width: 100%;
+}
+.main-box h3{
+  line-height: 1.8;
+}
+/*Responsive css*/
+@media screen and (max-width: 720px){
+  .newsbox h2{
+    text-align: center !important;
+  }
+  .newsbox img{
+    margin-top: 10px !important;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px){
+  .main-col, .news-col{
+    flex-wrap: nowrap !important;
+  }
+  .newsbox h2{
+    font-size: 10px !important;
+  }
+  .news-col .wp-block-column{
+    margin-left: 10px !important;
+  }
+  .news-col .wp-block-column:first-child{
+    margin-left: 0 !important;
+  }
+}

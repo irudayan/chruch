@@ -1,0 +1,40 @@
+/*news section css*/
+.newsbox h1, .newsbox h2, .main-box h3{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.newsbox .block-editor-block-list__block, .main-box .block-editor-block-list__block,
+.wp-block-columns.main-col.block-editor-block-list__block.block-editor-block-list__layout{
+	margin-top: 0 !important;
+  margin-bottom: 0 !important
+}
+.news-title{
+  height: 84px;
+  -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+}
+.newsbox{
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+.newsbox h1, .newsbox h2{
+  font-weight: 600 !important;
+}
+.newsbox img{
+  width: auto !important;
+}
+.news-text .wp-block-columns.block-editor-block-list__block.wp-block{
+	margin-top: 1em !important;
+}
+/*main content*/
+.main-text{
+  padding: 50px 20px 20px !important;
+  bottom: 0;
+  top: 9.3em;
+  background: rgba(0,0,0,0);
+  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
+  width: 100%;
+}
+.main-box h3{
+  line-height: 1.8;
+}
